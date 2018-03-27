@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="toto je tretia hodina">
+    <meta name="author" content=" ja som autor ">
+    <meta name="keywords" content="HTML, CSS, XML,XHTML, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../jpg/black-gas-mask-16.ico" type="image/x-icon">
+    <title> Hodina 3 </title>
+</head>
+<body>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/u5wxUS-9Uug" frameborder="0" allow="autoplay; encrypted-media"
+        allowfullscreen></iframe>
+    <button type="button" onclick="alert('no kukaj')"> 
+        tlačítko 1 
+    </button>
+    <button type="button" onclick="alert('no kukaj')" disabled> 
+        neklikneš
+    </button>
+    <form action="">
+        <input type="text" name="meno" placeholder="napíš meno">
+        <input type="text" name="vek" placeholder="napíš vek">
+    </form>
+    <br>
+    <br>
+    <form action="">
+        <select name="auta">
+            <option value="volvo">volvo</option>
+            <option value="tesla">tesla</option>
+            <option value="bmw">bmw</option>
+            <option value="dacia">dacia</option>
+        </select>
+        <textarea name="správa" id="" cols="30" rows="10"></textarea>
+        <input type="submit">
+    </form>
+    <br>
+    <form action="">
+        <input type="range" id="a" name="a" value="50"> 100+
+        <input type="number" id="b" name="b" value="50"> =
+        <output name="x" for="a b"></output>
+        <br>
+        <input type="radio" name="gender" value="male" checked> male
+        <br>
+        <input type="radio" name="gender" value="female" checked> female
+        <br>
+        <input type="radio" name="gender" value="neviem" checked> neviem
+        <br>
+    </form>
+    <form action="">
+        Meno:
+        <input type="text" name="meno" value="janko">
+        <br> priezvisko
+        <input type="text" name="priezvisko" value="hrasko">
+        <br> email
+        <input type="email" name="email" autocomplete="off">
+        <br> vek
+        <input type="text" name="vek" autofocus>
+        <br>
+        <hr>
+        <br>
+        <input type="image" src="../jpg/black-gas-mask-16.ico" alt="submit" width="50" height="50">
+        <br>
+        <br>
+        <input type="file">
+        <br>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="ine">
+        </datalist>
+        <br><br><br><hr>
+        nazov
+        <input type="text" name="nazov" pattern="[A-Za-z]{3}" title="">
+        <br> select image
+        <input type="file" name="img" multiple>
+        <br> enter date before 1980-01-01:
+        <input type="date" name="bday" max="1979-12-31">
+        <br> enter date before 2000-01-01:
+        <input type="date" name="bday" min="2018-03-20">
+        <br> quantity (between 1 - 5):
+        <input type="number" name="quantity" min="1" max="5">
+        <br> username:
+        <input type="text" name="username" required>
+        <br>
+        <input type="number" name="points" step="3">
+        <br>
+        <input type="text" name="username" value="nic" disabled>
+        <br>
+        <input type="text" name="username" value="citaj" readonly>
+        <br>
+        <label for="inputa">ci pana</label>
+        <input type="text" placeholder="aaaa" id="inputa">
+        <br>
+        <label for="inputb">ci pana</label>
+        <input type="text" placeholder="bbbb" id="inputb">
+
+    </form>
+</body>
+</html>
